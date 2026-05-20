@@ -1,13 +1,15 @@
-"use strict"; //treatall JS code as newer version
+"use strict"; // Treat all JavaScript code as modern and secure
 
-// alert("3 + 3"); // we are using node js so alert will not work it work only in browser
+// alert("3 + 3"); // we are using node js so alert will not work, it work only in browser.
 
-console.log(3 + 3); //code readability that should be high
+console.log(3 + 3); //code readability that should be high.
 
 //********************** Data Types in JavaScript **********************//
-let name = "Safwan"; // string data type
-let age = 22; // number data type
-let isApproved = false; // boolean data type
+let name = "Safwan"; // String data type
+let score = 100; // Number data type
+let isLoggedIn = false; // Boolean data type
+let outsideTemp = null; // Null data type
+let userEmail; // Undefined data type
 let isloggedIn = true; // boolean data type
 
 // 1. number => 2 to power 53
@@ -24,7 +26,8 @@ let person = {
   age: 22,
 };
 
-console.log(typeof "safwan"); // to know the data type of variable
+// typeof operator => it is used to find the data type of a variable or value
+console.log(typeof "safwan"); // output in string
 console.log(typeof 22); // output in number
 console.log(typeof true); // output in boolean
 console.log(typeof undefined); // output in undefined

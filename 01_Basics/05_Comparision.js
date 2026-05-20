@@ -1,23 +1,29 @@
-console.log(2>1)
-console.log(2>=1)
-console.log(2<1)
-console.log(2<=1)
-console.log(2==1)
-console.log(2!=1)
+console.log(2>1) // output: true
 
-console.log("2">1)
-console.log("02">1)
+console.log(2>=1) // output: true
+console.log(2<1) // output: false
+console.log(2<=1) // output: false
+console.log(2==1) // output: false
+console.log(2!=1) // output: true
 
-console.log(null>0)
-console.log(null==0)
-console.log(null>=)
+console.log("2">1) // output: true
+console.log("02">1) // output: true, here string is converted to number and then compared.
 
-console.log(undefined = 0)
-console.log(undefined==0)
-console.log(undefined>=0)
+console.log("2">"12") // output: true, here both string is converted to number and then compared.
+
+console.log(null>0) // output: false
+console.log(null==0) // output: false
+console.log(null>=0) // output: true
+
+console.log(undefined == 0) // output: false
+console.log(undefined==0) // output: false
+console.log(undefined>=0) // output: false
 
 /***********Strict Operator or Tripple Equal to**********/
 
-//===Triple equal operator is not only check the values but also check it datatypes
+//=== This operator is used to compare the value and data type of the variable or value. It is also called strict equality operator.
 
-console.log("2"===2)
+console.log(2===2) // output: true
+console.log(2==="2") // output: false, here we are comparing number and string, so it will return false because data type is different.
+
+console.log("2"===2) // output: false, here we are comparing string and number, so it will return false because data type is different.
